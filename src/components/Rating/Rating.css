@@ -1,0 +1,35 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+.rateContainer{
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 10%;
+	color:white;
+}
+.stars{
+	display: flex;
+	justify-content: center;
+}
+.container {
+	height: fit-content;
+}
+
+.container:hover{
+    background-color: rgb(179, 189, 195);
+}
+
+
+.textarea{
+    border: 1px solid #a9a9a9 ;
+    border-radius : 5;
+    }
+
+.submitBtn{
+	display: flex;
+    justify-content: right;
+    margin-bottom: 50px;
+	}
+
+

@@ -1,0 +1,10 @@
+.contact{
+    font-family :'Roboto Condensed';
+    background:linear-gradient(hsl(30 10% 10% / 0.4),hsl(40 0% 0% / 0.5) 30%,hsl(0 0% 0% / 1)) ;
+    color:white;
+    text-decoration: none;
+}
+
+.Social{
+    text-align: center;
+}

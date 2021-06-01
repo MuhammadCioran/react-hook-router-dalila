@@ -1,0 +1,11 @@
+
+.Movielist{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin : 8rem;
+
+}
+.link{
+    text-decoration: none;
+}

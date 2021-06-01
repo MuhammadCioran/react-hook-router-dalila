@@ -1,0 +1,47 @@
+
+.cardBody{
+    background:linear-gradient(hsl(30 10% 10% / 0.4),hsl(40 0% 0% / 0.5) 30%,hsl(0 0% 0% / 1)) ;
+    color:white;
+    line-height: 1.6;
+   
+}
+.MovieCards{
+    border-radius:0.5rem;
+    overflow:hidden;
+    max-width: 35ch;
+    margin-bottom: 30px;
+    transition: transform 500ms ease;
+    text-decoration: none;
+}
+.MovieCards:hover{
+transform: scale(1.05);
+}
+
+.cardtext{
+padding:1.5rem;
+color:rgba(255,255,255,0.8);
+}
+.cardTitle{
+    position:relative;
+    width:max-content;
+   
+}
+.cardTitle::after{
+    content:"";
+    position:absolute;
+    height: 4.5px;
+    left:calc(1.3rem*-1);
+    bottom:-6px;
+    width:calc(100% + 1.3rem);
+    background-color: blue;
+    transform : scaleX(0);
+    transform-origin:left ;
+    transition: transform 500ms ease;
+  
+}
+.MovieCards:hover .cardTitle::after{
+    transform : scaleX(1);
+}
+
+
+
